@@ -1,0 +1,17 @@
+package io.insurance.customeracceptanceservice;
+
+import java.util.Date;
+
+public class InsuranceCardInfo {
+	
+	
+	private Customer customer;
+	private String coverageType;
+	private String coverageDetails;
+	private float monthlyCost;
+	private Date coverageDate;
+	
+	
+
+
+}

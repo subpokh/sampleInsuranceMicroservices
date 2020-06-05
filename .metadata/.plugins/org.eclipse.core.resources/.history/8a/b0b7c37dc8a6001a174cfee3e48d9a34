@@ -1,0 +1,58 @@
+package io.insurance.customeracceptanceservice;
+
+import java.util.Date;
+
+public class InsuranceCardInfo {
+	
+	
+	private Customer customer;
+	private String coverageType;
+	private String coverageDetails;
+	private float monthlyCost;
+	private Date coverageDate;
+	
+	
+	public InsuranceCardInfo(Customer customer, String coverageType, String coverageDetails, float monthlyCost,
+			Date coverageDate) {
+		super();
+		this.customer = customer;
+		this.coverageType = coverageType;
+		this.coverageDetails = coverageDetails;
+		this.monthlyCost = monthlyCost;
+		this.coverageDate = coverageDate;
+	}
+	public Customer getCustomer() {
+		return customer;
+	}
+	public void setCustomer(Customer customer) {
+		this.customer = customer;
+	}
+	public String getCoverageType() {
+		return coverageType;
+	}
+	public void setCoverageType(String coverageType) {
+		this.coverageType = coverageType;
+	}
+	public String getCoverageDetails() {
+		return coverageDetails;
+	}
+	public void setCoverageDetails(String coverageDetails) {
+		this.coverageDetails = coverageDetails;
+	}
+	public float getMonthlyCost() {
+		return monthlyCost;
+	}
+	public void setMonthlyCost(float monthlyCost) {
+		this.monthlyCost = monthlyCost;
+	}
+	public Date getCoverageDate() {
+		return coverageDate;
+	}
+	public void setCoverageDate(Date coverageDate) {
+		this.coverageDate = coverageDate;
+	}
+	
+	
+
+
+}

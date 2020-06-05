@@ -1,0 +1,64 @@
+package io.insurance.customeracceptanceservice;
+
+public class InsuranceCardInfo {
+	
+	private String costumerId;
+	private String costumerName;
+	private String customerAddress;
+	private String coverageId;
+	private String coverageType;
+	private String coverageDetails;
+	private float monthlyCost;
+	private AcceptOrDenied acceptOrDenied;
+	
+	public AcceptOrDenied getAcceptOrDenied() {
+		return acceptOrDenied;
+	}
+	public void setAcceptOrDenied(AcceptOrDenied acceptOrDenied) {
+		this.acceptOrDenied = acceptOrDenied;
+	}
+	public String getCostumerId() {
+		return costumerId;
+	}
+	public void setCostumerId(String costumerId) {
+		this.costumerId = costumerId;
+	}
+	public String getCostumerName() {
+		return costumerName;
+	}
+	public void setCostumerName(String costumerName) {
+		this.costumerName = costumerName;
+	}
+	public String getCoverageId() {
+		return coverageId;
+	}
+	public void setCoverageId(String coverageId) {
+		this.coverageId = coverageId;
+	}
+	public String getCoverageType() {
+		return coverageType;
+	}
+	public void setCoverageType(String coverageType) {
+		this.coverageType = coverageType;
+	}
+	public float getMonthlyCost() {
+		return monthlyCost;
+	}
+	public void setMonthlyCost(float monthlyCost) {
+		this.monthlyCost = monthlyCost;
+	}
+	public String getCustomerAddress() {
+		return customerAddress;
+	}
+	public void setCustomerAddress(String customerAddress) {
+		this.customerAddress = customerAddress;
+	}
+	public String getCoverageDetails() {
+		return coverageDetails;
+	}
+	public void setCoverageDetails(String coverageDetails) {
+		this.coverageDetails = coverageDetails;
+	}
+	
+
+}

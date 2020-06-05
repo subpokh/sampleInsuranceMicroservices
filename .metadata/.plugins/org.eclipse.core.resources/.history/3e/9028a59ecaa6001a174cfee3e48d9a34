@@ -1,0 +1,39 @@
+package io.insurance.customeracceptanceservice;
+
+import java.util.Collections;
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CustomerAcceptanceServiceController {
+	
+	public List<InsuranceCardInfo> gerInsuranceInfo(String costumerId){
+		
+		/*
+		 * private Customer customer;
+	private String coverageType;
+	private String coverageDetails;
+	private float monthlyCost;
+	private Date coverageDate;
+		 * 
+		 * 
+		 * 	private String customerId;
+	private String customerName;
+	private String customerAddress;
+	private Quote quote;
+	private int customerAgeYears;
+	
+		private String quoteId;
+	private String quoteCoverage;
+	private String quoteDescription;
+		 */
+		Quote quote = new Quote("Q200", "Liability", "abc");
+		Customer customer = new Customer("C101", "John Doe","101 N Wilson Dr.", quote, 28);
+		InsuranceCardInfo info = new InsuranceCardInfo(customer,"Liability","abc", 25, "10/12/2020");
+		
+		//return Collections.singletonList(info);
+	} 
+
+}

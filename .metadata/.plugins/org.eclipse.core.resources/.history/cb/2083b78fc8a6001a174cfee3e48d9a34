@@ -1,0 +1,15 @@
+package io.insurance.customeracceptanceservice;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CustomerAcceptanceServiceController {
+	
+	public List<InsuranceCardInfo> gerInsuranceInfo(String costumerId){
+		
+		return List<InsuranceCardInfo> a;
+	} 
+
+}
